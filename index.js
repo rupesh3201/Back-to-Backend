@@ -9,7 +9,10 @@ server.get("/ping",(req,res)=>{
     res.send("pong");
 });
 server.get("/vande",(req,res)=>{
-    res.send("Matram")
+    res.send("Matram");
+})
+server.get("rupesh",(req,res)=>{
+    res.send("Mnadge");
 })
 // created a basic server by using express 
 server.listen(5004);
