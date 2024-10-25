@@ -4,6 +4,7 @@ const app = express();
 app.get("/home",(req,res)=>
 {
     res.send("Home Page is here");
+    // api  hit sucessfully 
 })
 
 const PORT= 4000;
