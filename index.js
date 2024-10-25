@@ -1,6 +1,9 @@
 import express  from 'express';
 
 const server = express();
+// get request 
+// (req,res) are obj
+
 server.get("/hi",(req,res)=>{
     req.send("hellow");
 })
