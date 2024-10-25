@@ -22,10 +22,14 @@ app.get("/data",(req,res)=>
     {
         res.json(
             {
+                name : 'Rupesh ',
+                Lastname : 'Mandge',
+                data: {
                 sucess : true,
                 msg : 'Pass',
                 marks : 90 ,
                 subject : 'hindi'
+                }
             }
         )
         // api  hit sucessfully 
