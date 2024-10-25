@@ -5,9 +5,9 @@ const server = express();
 // (req,res) are obj
 
 server.get("/hi",(req,res)=>{
-    req.send("hellow");
-})
+    res.send("hellow");
+});
 server.get("/ping",(req,res)=>{
-    req.send("pong");
-})
+    res.send("pong");
+});
 server.listen(5004);
