@@ -29,6 +29,7 @@ app.get("/data",(req,res)=>
                 msg : 'Pass',
                 marks : 90 ,
                 subject : 'hindi'
+                // ya done for day time to do it again tomarrow
                 }
             }
         )
