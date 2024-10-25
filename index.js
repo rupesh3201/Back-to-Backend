@@ -8,5 +8,8 @@ server.get("/hi",(req,res)=>{
 server.get("/ping",(req,res)=>{
     res.send("pong");
 });
+server.get("/vande",(req,res)=>{
+    res.send("Matram")
+})
 // created a basic server by using express 
 server.listen(5004);
