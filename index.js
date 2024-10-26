@@ -35,6 +35,23 @@ app.get("/data",(req,res)=>
         )
         // api  hit sucessfully 
     })
+    app.get("/student",(req,res)=>
+        {
+            res.json(
+                {
+                    name : 'nilesh ',
+                    Lastname : 'Mandge',
+                    data: {
+                    sucess : true,
+                    msg : 'Pass',
+                    marks : 90 ,
+                    subject : 'hindi'
+                    // ya done for day time to do it again tomarrow
+                    }
+                }
+            )
+            // api  hit sucessfully 
+        })
 const PORT= 4000;
 console.log(`Server is Running on Port Number ${PORT}`);
 app.listen(4000);
