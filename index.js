@@ -46,7 +46,7 @@ app.get("/data",(req,res)=>
                     msg : 'Pass',
                     marks : 90 ,
                     cast : 'Maratha',
-                    Result : 'pass'
+                    Result : 'Pass'
                     // ya done for day time to do it again tomarrow
                     }
                 }
