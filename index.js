@@ -39,7 +39,7 @@ app.get("/data",(req,res)=>
         {
             res.json(
                 {
-                    name : 'nilesh ',
+                    Name : 'Nilesh',
                     Lastname : 'Mandge',
                     data: {
                     sucess : true,
